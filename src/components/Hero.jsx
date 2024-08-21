@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="container relative">
             <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb:[6rem]" ref={parallax}>
                 <h1 className="h1 mb-6">
-                    Explore the possibilites of AI chatting with Brainwave
+                    Explore the possibilites of&nbsp;AI&nbsp; chatting with Brainwave {` `}
                     <span className="inline-block relative">
                         Brainwave{""}
                         <img src={curve} className="absolute top-full left-0 w-full xl:mt-2" width={624} height={28} alt="Curve"/>
@@ -52,6 +52,7 @@ const Hero = () => {
                 <BackgroundCircles/>
             </div>
         </div>
+        <BottomLine/>
     </Section>
   )
 }
