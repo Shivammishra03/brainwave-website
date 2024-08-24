@@ -1,6 +1,6 @@
 const Generating = () => {
   return (
-    <div>Generating</div>
+    <div>Generatingjhfjkshjf</div>
   )
 }
 
